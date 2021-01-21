@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE concesionario [
+<!ELEMENT concesionario (coche)*>
+<!ELEMENT coche (codcoche|marca|modelo|matricula|caballos|plazas|puertas)*>
+<!ELEMENT codcoche (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT caballos (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT puertas (#PCDATA)>
+]>
+<concesionario>
+    <coche>
+        <codcoche>12345</codcoche>
+        <marca>Chevrolet</marca>
+        <modelo>Camaro</modelo>
+        <matricula>1234LOC</matricula>
+        <caballos>20</caballos>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+
+    <coche>
+        <codcoche>54321</codcoche>
+        <marca>Opel</marca>
+        <modelo>Corsa</modelo>
+        <matricula>5432WWW</matricula>
+        <caballos>50</caballos>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+
+    <coche>
+        <codcoche>69347</codcoche>
+        <marca>Audi</marca>
+        <modelo>A5</modelo>
+        <matricula>4563TYG</matricula>
+        <caballos>70</caballos>
+        <plazas>6</plazas>
+        <puertas>5</puertas>
+    </coche>
+
+    <coche>
+        <codcoche>11111</codcoche>
+        <marca>Volkswagen</marca>
+        <modelo>T-ROC</modelo>
+        <matricula>4444PRA</matricula>
+        <caballos>69</caballos>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+
+
+
+</concesionario>

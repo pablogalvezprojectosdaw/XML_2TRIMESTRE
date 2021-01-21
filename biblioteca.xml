@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listalibros
+[
+<!ELEMENT listalibros (libro)*>
+<!ELEMENT libro (autores|titulo|editorial|fecha|ibsn)*>
+<!ELEMENT autores (autor)*>
+<!ELEMENT autor (apellido1|apellido2|nombre)*>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT ibsn (#PCDATA)>
+]>
+
+<listalibros>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Gutierrez</apellido1>
+                <apellido2>García</apellido2>
+                <nombre>Manuel</nombre>
+            </autor>
+             <autor>
+                <apellido1>Sanchez</apellido1>
+                <apellido2>Ramon</apellido2>
+                <nombre>Antonio</nombre>
+            </autor>
+        </autores>
+    <titulo>El libro</titulo>
+    <editorial>Editoriales Juan</editorial>
+    <fecha>19/9/2009</fecha>
+    <ibsn>123456</ibsn>
+
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Gutierrez</apellido1>
+                <apellido2>Torres</apellido2>
+                <nombre>Juan</nombre>
+           </autor>
+        </autores>
+    <titulo>Mates y ciencia</titulo>
+    <editorial>Editorial Señal</editorial>
+    <fecha>12/3/2010</fecha>
+    <ibsn>4897892</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Herrera</apellido1>
+                <apellido2>Gomez</apellido2>
+                <nombre>Adolfo</nombre>
+           </autor>
+        </autores>
+    <titulo>Main Craft</titulo>
+    <editorial>Editorial Alemania</editorial>
+    <fecha>1/1/2011</fecha>
+    <ibsn>1121222</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Ramos</apellido1>
+                <apellido2>Rodriguez</apellido2>
+                <nombre>Ramon</nombre>
+           </autor>
+        </autores>
+    <titulo>El libro sobre un libro</titulo>
+    <editorial>Editoriales Juan</editorial>
+    <fecha>2/2/2012</fecha>
+    <ibsn>526423</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Ibáñez</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Francisco</nombre>
+           </autor>
+        </autores>
+    <titulo>Fortadelo y Milemón</titulo>
+    <editorial>Editorial Comedia</editorial>
+    <fecha>9/6/2014</fecha>
+    <ibsn>345212</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Gutierrez</apellido1>
+                <apellido2>González</apellido2>
+                <nombre>Emilio</nombre>
+           </autor>
+        </autores>
+    <titulo>España va bien</titulo>
+    <editorial>Editorial PSOE</editorial>
+    <fecha>19/9/2014</fecha>
+    <ibsn>689954</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Gutierrez</apellido1>
+                <apellido2>García</apellido2>
+                <nombre>Manuel</nombre>
+           </autor>
+             <autor>
+                <apellido1>Sanchez</apellido1>
+                <apellido2>Ramon</apellido2>
+                <nombre>Antonio</nombre>
+            </autor>
+        </autores>
+    <titulo>Kiko Rivera: Memorias</titulo>
+    <editorial>Editoriales Juan</editorial>
+    <fecha>02/12/2020</fecha>
+    <ibsn>126245</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Ramirez</apellido1>
+                <apellido2>García</apellido2>
+                <nombre>Juan Kiko</nombre>
+           </autor>
+        </autores>
+    <titulo>Jarri poter</titulo>
+    <editorial>Editorial Nesflis</editorial>
+    <fecha>19/9/2014</fecha>
+    <ibsn>124562</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Manuelin</apellido1>
+                <apellido2>Martinez</apellido2>
+                <nombre>Manolo</nombre>
+           </autor>
+        </autores>
+    <titulo>La via en er campo</titulo>
+    <editorial>Editorial Illo</editorial>
+    <fecha>14/9/2009</fecha>
+    <ibsn>243456</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Gutierrez</apellido1>
+                <apellido2>García</apellido2>
+                <nombre>Manuel</nombre>
+           </autor>
+        </autores>
+    <titulo>El libro de XML</titulo>
+    <editorial>Editoriales Juan</editorial>
+    <fecha>19/9/2010</fecha>
+    <ibsn>123656</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Gomez</apellido1>
+                <apellido2>Ramirez</apellido2>
+                <nombre>Juan</nombre>
+           </autor>
+        </autores>
+    <titulo>Guía de como no morirte</titulo>
+    <editorial>Editoriales Juan</editorial>
+    <fecha>19/9/2015</fecha>
+    <ibsn>124563</ibsn>
+
+    </libro>
+
+        <libro>
+        <autores>
+            <autor>
+                <apellido1>Gutierrez</apellido1>
+                <apellido2>García</apellido2>
+                <nombre>Manuel</nombre>
+           </autor>
+             <autor>
+                <apellido1>Sanchez</apellido1>
+                <apellido2>Ramon</apellido2>
+                <nombre>Antonio</nombre>
+            </autor>
+        </autores>
+    <titulo>Isabel Pantoja: Memorias</titulo>
+    <editorial>Editoriales Juan</editorial>
+    <fecha>19/9/2009</fecha>
+    <ibsn>123456</ibsn>
+
+    </libro>
+</listalibros>
