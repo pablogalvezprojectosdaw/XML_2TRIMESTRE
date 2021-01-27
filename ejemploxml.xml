@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<BDsms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BDsmsSchema.xsd">
+    <sms>
+        <telefono>955 55 66 55</telefono>
+        <fecha>1/7/2011</fecha>
+        <hora>23:55</hora>
+        <mensaje>JUEGO1:Tetris</mensaje>
+    </sms>
+    <sms>
+        <telefono>745 15 56 11</telefono>
+        <fecha>22/9/2011</fecha>
+        <hora>15:05</hora>
+        <mensaje>JUEGO2:Arkanoid</mensaje>
+    </sms>
+</BDsms>
